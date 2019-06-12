@@ -395,12 +395,56 @@ var ceDemoAppComponent = /** @class */ (function () {
                 "text": "Case Studies",
                 "icon": "fa fa-clone fa-fw",
                 "submenus": [
-                    { "text": "Shopping Portal", "link": "https://sedemo.amexio.org/se/shoppingportal/#/home" },
-                    { "text": "US Election Results", "link": "https://sedemo.amexio.org/se/us-election/ " },
-                    { "text": "Insurance Portal", "link": "https://sedemo.amexio.org/se/insuranceportal/#/home" },
-                    { "text": "Movie Portal", "link": "https://cedemo.amexio.org/tecmflix/#/app" },
-                    { "text": "NpmStats", "link": "https://www.npmstats.com/" },
-                    { "text": "Creative Demo", "link": "https://eedemo.amexio.org/#/login" }
+                    {
+                        "text": "Showcase",
+                        "link": "https://showcase.amexio.org/#/landingPage-app"
+                    },
+                    {
+                        "text": "Traffic Analysis",
+                        "link": "https://eedemo.amexio.org/#/home/dashboard",
+                        "separator": true,
+                        "separatorHeader": "Enterprise Edition Apps"
+                    },
+                    {
+                        "text": "City Analysis",
+                        "link": "https://eedemo.amexio.org/#/home/dashboardtwo"
+                    },
+                    {
+                        "text": "Movie Portal",
+                        "link": "https://cedemo.amexio.org/Virtual-Scroller/#/sc",
+                        "separator": true,
+                        "separatorHeader": "Creative Edition Apps"
+                    },
+                    {
+                        "text": "TecMFlix",
+                        "link": "https://cedemo.amexio.org/tecmflix/"
+                    },
+                    {
+                        "text": "Creative Home Page",
+                        "link": "https://cedemo.amexio.org/amexio-ce-demo-app/index.html#/ce-demo-app"
+                    },
+                    {
+                        "text": "Components App",
+                        "link": "https://demo.amexio.org/se/v5.12/index.html#/home",
+                        "separator": true,
+                        "separatorHeader": "Standard Edition Apps"
+                    },
+                    {
+                        "text": "Insurance Portal",
+                        "link": "https://sedemo.amexio.org/se/insuranceportal/#/home"
+                    },
+                    {
+                        "text": "Shopping Portal",
+                        "link": "https://sedemo.amexio.org/se/shoppingportal/#/home"
+                    },
+                    {
+                        "text": "US Election Results",
+                        "link": "https://sedemo.amexio.org/se/us-election/ "
+                    },
+                    {
+                        "text": "NpmStats",
+                        "link": "https://www.npmstats.com/"
+                    }
                 ]
             },
             {
@@ -1394,7 +1438,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/deepali/Docker-Containers/amexio-ce-demo-app-page/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/travis/build/meta-magic/amexio-ce-demo-app-page/src/main.ts */"./src/main.ts");
 
 
 /***/ })
